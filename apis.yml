@@ -1,7 +1,29 @@
 aid: wealor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wealor.png
 name: Wealor
-description: Wealor is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Wealor is an AI-native platform for wealth managers, building a centralized,
+  queryable source of truth across wealth management, tax, legal, estate, and
+  insurance. The platform captures data from conversations, financial documents,
+  tax returns, legal documents, and custodial systems into a single knowledge
+  layer, then uses specialized AI agents to automate operational work — account
+  opening, client subscriptions, tax optimization, trade rebalancing, and
+  billable client-plan generation — directly across legacy partner portals and
+  internal systems via APIs and browser automation. Founded in 2026 by Karim
+  Bouri and Pierre Depuydt and backed by Y Combinator (P26 batch), Wealor is
+  based in San Francisco. As of this profile it is an API consumer with no
+  public developer API, documentation, or specification surface.
 url: https://raw.githubusercontent.com/api-evangelist/wealor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +33,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Wealth Management
+- Fintech
+- Artificial Intelligence
+- AI Agents
+- Financial Services
+- Automation
+- Y Combinator
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/wealor-domain-security.yml
+- type: Website
+  url: https://wealor.ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
