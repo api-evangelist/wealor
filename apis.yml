@@ -51,7 +51,7 @@ tags:
 - Fintech
 - Artificial Intelligence
 - AI Agents
-- Financial-Services
+- Financial Services
 - Automation
 - Y Combinator
 tags_raw:
@@ -63,6 +63,7 @@ tags_raw:
 - Financial Services
 - Automation
 - Y Combinator
+- Financial-Services
 apis: []
 x-enrichment:
   date: '2026-07-21'
